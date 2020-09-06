@@ -20,6 +20,8 @@
 
 4. In `StylingComponent` afisati o lista de `CardComponent` combinate cu `withClicker` care sa afiseze metalele din array-ul `metals`
 
+    ![card](docs/images/styling-example.png)
+
 5. In `StylingComponent` afisati un unic contor care sa se incrementeze la fiecare apasare de buton "Click me" din cadrul oricarei componente din lista de la punctul 4.
 
 6. In `StylingComponent` creati un buton care:
