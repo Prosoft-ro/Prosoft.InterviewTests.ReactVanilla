@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prosoft.InterviewTests.ReactVanilla.Server", "Prosoft.InterviewTests.ReactVanilla.Server\Prosoft.InterviewTests.ReactVanilla.Server.csproj", "{98895EAF-B692-4DF3-9080-223B59BD72FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98895EAF-B692-4DF3-9080-223B59BD72FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98895EAF-B692-4DF3-9080-223B59BD72FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98895EAF-B692-4DF3-9080-223B59BD72FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98895EAF-B692-4DF3-9080-223B59BD72FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {297A29D2-DE73-4D71-BC86-6BC9F4C2ABB6}
+	EndGlobalSection
+EndGlobal

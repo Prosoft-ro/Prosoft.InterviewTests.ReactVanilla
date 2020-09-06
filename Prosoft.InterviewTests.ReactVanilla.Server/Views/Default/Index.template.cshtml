@@ -1,0 +1,34 @@
+﻿@using Prosoft.InterviewTests.ReactVanilla.Server
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <% for (var css in htmlWebpackPlugin.files.css) { %>
+    <link href="<%= '@Url.Content("~' + htmlWebpackPlugin.files.css[css] + '")' %>" rel="stylesheet">
+    <% } %>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <script>
+        window.baseUrl = "@Url.Content("~/")";
+        window.resourcesBaseUrl = "@Url.Content("~/dist/")";
+        window.appVersion = "@AppVersion.Version.ToString()";
+        window.appShortName = "React Interview";
+        window.appFullName = "React Prosoft Interview";
+    </script>
+
+    <% for (var chunk in htmlWebpackPlugin.files.js) { %>
+    <script src="<%= '@Url.Content("~' + htmlWebpackPlugin.files.js[chunk] + '")' %>"></script>
+    <% } %>
+</body>
+</html>
